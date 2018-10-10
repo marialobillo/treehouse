@@ -3,7 +3,8 @@ shopping_list = []
 
 # create a function named add_to_list that declares a parameter named item
 def add_to_list(item):
-    shopping_list.apend(item)
+    shopping_list.append(item)
+    print("Added! List has {} items".format(len(shopping_list)))
 
 def show_help():
     print("What should we pick up at the store?")
